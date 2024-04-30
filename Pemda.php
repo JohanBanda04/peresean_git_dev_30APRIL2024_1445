@@ -2286,7 +2286,7 @@ and zona_dokumen='$zona' and status='$status'  order by id_draft_permohonan DESC
 
             } catch (Exception $e) {
                 echo json_encode($e);
-                /*tertanda*/
+                /*tertanda ingat*/
             }
 
         } else {
